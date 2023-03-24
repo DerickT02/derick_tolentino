@@ -11,9 +11,9 @@ menuIcon.onmousedown = function(){
     if(!toggleClick){
         bar1.style.transition = "0.01s ease-in"
         bar3.style.transition = "0.01s ease-in"
-        bar1.style.transform = "rotate(45deg)"
+        bar1.style.transform = "rotate(45deg) translateY(10px) translateX(10px)"
         bar2.style.visibility = "hidden"
-        bar3.style.transform = "rotate(-45deg)"
+        bar3.style.transform = "rotate(-45deg)  translateY(-10px) translateX(10px)"
         dropdown.style.visibility = "visible"
         toggleClick = true
     }
@@ -32,9 +32,9 @@ menuIcon.onmousedown = function(){
 nav.onmouseover = function(){
     bar1.style.transition = "0.01s ease-in"
     bar3.style.transition = "0.01s ease-in"
-    bar1.style.transform = "rotate(45deg)"
+    bar1.style.transform = "rotate(45deg) translateY(10px) translateX(10px)"
     bar2.style.visibility = "hidden"
-    bar3.style.transform = "rotate(-45deg)"
+    bar3.style.transform = "rotate(-45deg)  translateY(-10px) translateX(10px)"
     dropdown.style.visibility = "visible"
 }
 
