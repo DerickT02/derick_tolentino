@@ -68,6 +68,11 @@ body{
    
 }
 
+#navbar-items a{
+    text-decoration: none;
+    color: white;    
+}
+
 @media only screen and (min-width: 992px) {
 
     .title{
@@ -77,6 +82,7 @@ body{
         font-size: 3vh;
         text-align: center;
     }
+
     #navbar{
         margin-top: 40px;
         position: absolute;
@@ -86,6 +92,7 @@ body{
         margin-left: auto;
         
     }
+
 
   
 
@@ -123,5 +130,10 @@ body{
         flex-direction: column;
         align-content: end;
         
+    }
+
+    #navbar-items a{
+        text-decoration: none;
+        color: white;    
     }
 }
