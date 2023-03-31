@@ -45,6 +45,7 @@ nav.onmouseleave = function(){
     bar2.style.visibility = "visible"
     bar3.style.transform = "rotate(0deg)"
     dropdown.style.visibility = "hidden"
+    
 
 }
 /*
